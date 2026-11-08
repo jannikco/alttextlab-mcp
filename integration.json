@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "status": "ready",
+  "verification": "mock-only",
+  "releaseEligible": true,
+  "maintainer": "jannikco",
+  "license": "MIT",
+  "sourceRevision": "32ee100f049efa252ecb61eea0470a322b70dc057121a3aa9c58da6f5f379f71",
+  "evidence": [
+    "Source-backed provider setup metadata",
+    "Offline configuration and MCP protocol tests"
+  ],
+  "provenance": [
+    "https://www.alttextlab.com/docs/api"
+  ],
+  "id": "alttextlab-mcp",
+  "kind": "mcp-setup",
+  "product": "pipmcp",
+  "title": "AltTextLab MCP setup and connection checker",
+  "description": "Generate AltTextLab MCP client configuration, inspect available tools and validate hosted endpoint access through PipMCP.",
+  "operationIds": [],
+  "appSlug": "alttextlab",
+  "appName": "AltTextLab",
+  "providerDocs": "https://www.alttextlab.com/docs/api",
+  "providerWebsite": "https://www.alttextlab.com/",
+  "authentication": {
+    "type": "api_key_header",
+    "requiredCredentialFields": [
+      "api_key"
+    ],
+    "requiredHeaderNames": [],
+    "helpUrl": "https://www.alttextlab.com/docs/api/api-key",
+    "tenantRequired": false,
+    "accountParameterNames": []
+  },
+  "attributionSlug": "github-alttextlab-mcp"
+}
