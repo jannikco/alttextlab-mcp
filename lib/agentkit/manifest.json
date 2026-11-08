@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.0",
+  "product": "pipmcp",
+  "credential": "PIPMCP_API_KEY",
+  "skills": [
+    {
+      "name": "pipmcp-alttextlab",
+      "description": "Connect AI agents to AltTextLab using one PipMCP API key and actual hosted tool discovery."
+    }
+  ],
+  "files": {
+    "skills/pipmcp-alttextlab/SKILL.md": "c65f0a3e9ab7105ef6378ae3a8715fec8dfbe5c9028dcbcfc2f6f1a907b695e8"
+  }
+}
